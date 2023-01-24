@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajo final cv</title>
+    <link rel="stylesheet" href="/css/cv.css">
+    <style>
+
+        .beton{
+          border-radius: 12px;
+          background-color: rgba(235, 235, 8, 0);
+          color: lavenderblush;
+          border-color: rgb(250, 235, 215);
+          font-size: medium;
+          font-family: Georgia, serif;
+        }
+        .beton2{
+          border-radius: 12px;
+          background-color: rgba(235, 235, 8, 0);
+          color: lavenderblush;
+          border-color: rgb(250, 235, 215);
+          font-size: medium;
+          font-family: Georgia, serif;
+        }
+        .box {
+          width: 100%;
+          height: auto;
+        }
+        
+        .box  td, .box th {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: center;
+        }
+        
+        .box tr:nth-child(even){background-color: #ece7e7;}
+        
+        .box th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: center;
+          background-color: #18a0f4;
+          color: rgb(15, 1, 1);
+          }
+        #estudios th {
+          text-align: left;
+        }
+        h1 {
+          text-shadow: 10px 10px 10px rgb(0, 34, 255);
+        }
+        h3 {
+          text-shadow: 10px 10px 10px rgb(0, 34, 255);
+        }
+        </style>
+</head>
+</head>
+<body>
+    <div>
+      <img src="/imagenes/esta.jpg" alt="hombre con saco y corbata" style="width: 150px;">
+    </div>
+    
+    <div>
+    <h1> Diego Omar Gutiérrez </h1>
+    <h3> gutierrezdiegoarg@gmail.com</h3>
+    </div>
+
+    <script src="/js/cv.js"></script>
+
+    <button type="button" class="beton" id="datos" onclick="tabla1()">Datos Personales</button>
+    <button type="button" class="beton" id="titulos" onclick="tabla2()">Estudios</button>
+    <button type="button" class="beton" id="laburos" onclick="tabla3()" >Historial Laboral</button>
+    <button type="button" class="beton2" onclick="atrás()">Atrás </button>    
+    
+    <Audio id="soni1" src="/audios/tab1.mp3" type="audio/mpeg">
+    </Audio>
+
+    <Audio id="soni" src="/audios/radiu.mp3" type="audio/mpeg">
+    </Audio>
+
+    <Audio id="soni2" src="/audios/tab2.mp3" type="audio/mpeg">
+    </Audio>
+
+    <Audio id="soni3" src="/audios/tab3.mp3" type="audio/mpeg">
+    </Audio>
+
+<div class="box">
+    <table id="datospers" >
+        <tr>
+          <th colspan="2">Datos Personales</th>
+
+        </tr>
+        <tr>
+          <td>Nombre:</td>
+          <td>Diego Omar</td>
+        </tr>
+        <tr>
+          <td>Apellido:</td>
+          <td>Gutiérrez</td>
+        </tr>
+        <tr>
+          <td>D.N.I:</td>
+          <td>26.293.947</td>
+        </tr>
+        <tr>
+          <td>Fecha de Nacimiento:</td>
+          <td>18/10/1977</td>
+        </tr>
+        <tr>
+          <td>Lugar de Nacimiento:</td>
+          <td>Buenos Aires</td>
+        </tr>
+        <tr>
+          <td>Nacionalidad:</td>
+          <td>Argentina</td>
+        </tr>
+        <tr>
+          <td>Sexo:</td>
+          <td>Masculino</td>
+        </tr>
+        <tr>
+          <td>Estado Civil:</td>
+          <td>Soltero</td>
+        </tr>
+        <tr>
+          <td>Telefono:</td>
+          <td>+64 11 68822980</td>
+        </tr>
+        <tr>
+          <td>Direccion:</td>
+          <td>Boulogne, Buenos Aires</td>
+        </tr>
+      </table>
+</div>
+<div class="box">
+      <table id="estudios">
+        <tr>
+          <th colspan="4">Estudios</th>
+
+        </tr>
+        <tr>
+          <td>Primario:</td>
+          <td>Colegio San Cayetano </td>
+          <td>Buenos Aires, Villa Adelina</td>
+        </tr>
+        <tr>
+          <td>Secundario:</td>
+          <td>escuela nacional de comercio jorge Newvery</td>
+          <td>San Fernando del Valle de Catamarca</td>
+          <td>Titulo: Perito Mercantil con especialidad Contable e Impositiva </td>
+        </tr>
+        <tr>
+          <td>terciario</td>
+          <td>Instituto de Enseñanza Superior (I.E.S.) Prof. Juan M. Chavarria</td>
+          <td>San Fernando del Valle de Catamarca</td>
+          <td>Técnico en administración de Empresas Hoteleras y Gastronómicas</td>
+        </tr>
+        <tr>
+            <th colspan="4">Estudios Complementarios</th>
+        </tr>
+        <tr>
+          <td>Instituto Superior Mariano Moreno</td>
+          <td>Operador Master en pc</td>
+          <td>1996</td>
+        </tr>
+        <tr>
+          <td>Instituto Superior Mariano Moreno</td>
+          <td>Reparación de Pc</td>
+          <td>1999</td>
+        </tr>
+        <tr>
+          <td>U.T.H.G.R.A</td>
+          <td>Mozo Profesional </td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>NuevaMente concurso de Jóvenes Emprendedores</td>
+          <td>titulo certificando 20hs de capacitación en el la Facultad de Ciencias Econmicas</td>
+          <td>2004</td>
+        </tr>
+
+        <th>Idiomas</th>
+        <th>Escritura</th>
+        <th>Lectura</th>
+        <th>Pronunciación</th>
+        <tr>
+          <td>Inglés</td>
+          <td>alto</td>
+          <td>alto</td>
+          <td>alto</td>
+        </tr>
+        <tr>         
+          <td>Francés</td>
+          <td>bajo</td>
+          <td>medio</td>
+          <td>bajo</td>
+        </tr>
+        <tr>
+          <td>Portugués</td>
+          <td>bajo</td>
+          <td>medio</td>
+          <td>bajo</td>
+        </tr>
+      </table>
+</div>    
+<div class="box">
+  <table id="trabajos">
+    <tr>
+      <th>Empresa</th>
+      <th>Tarea</th>
+      <th>Año</th>
+
+    </tr>
+    <tr>
+      <td>Alpargatas S.A. (Catamarca)</td>
+          <td>Maquinista, Operario.</td>
+          <td>2001</td>
+    </tr>
+    <tr>
+      <td>Cyber El Clan (Catamarca)</td>
+          <td>atencion al publico, mantenimiento, caja, etc.</td>
+          <td>2005</td>
+    </tr>
+    <tr>
+      <td>Mateos logistica S.A. (Bs As)</td>
+      <td>Acompañante, chofer</td>
+      <td>2010</td>
+    </tr>
+   
+    <tr>
+      <td>Empresa de Eventos</td>
+          <td>organizacion, mozo, etc.</td>
+          <td>2011</td>
+    </tr>
+    <tr>
+      <td>Prosegur</td>
+          <td>custodio</td>
+          <td>2018</td>
+    </tr>
+    <tr>
+      <td>reparacion de pc</td>
+          <td>armado, reparacion y mejora de pc</td>
+          <td>actualidad</td>
+    </tr>
+  </table>
+</div>    
+</body>
+</html>

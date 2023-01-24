@@ -1,0 +1,54 @@
+body {
+
+background-color: black;
+background-image: url("/imagenes/radio1.png");
+background-attachment:fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+text-align: center;
+font-size:xx-large;
+font-family: Georgia, serif;
+text-shadow: 2px 2px 5px rgb(0, 17, 255);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: aliceblue;
+}
+
+.box{
+    background-color: rgba(254, 254, 254, 0);
+    visibility:collapse;
+    vertical-align:auto;
+    text-align:center;
+    font-size:large;
+    font-family: Georgia, serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;     
+    table-layout:auto;
+    position:absolute;
+}
+
+.beton:hover {
+  border-radius: 12px; 
+  border-color: rgb(250, 235, 215);
+  background-color: rgba(235, 235, 8, 0.74);
+  color: lavenderblush;
+  font-size: larger;
+  font-family: Georgia, serif;
+  text-shadow: 2px 2px 5px rgb(0, 17, 255);
+  box-shadow: 0 12px 16px 0 rgba(246, 246, 1, 0.669),0 17px 50px 0 rgba(255, 0, 0, 0.507);
+}
+.beton2.beton2:hover {
+  border-radius: 12px; 
+  border-color: rgb(250, 235, 215);
+  background-color: rgba(204, 8, 8, 0.758);
+  color: lavenderblush;
+  font-size: larger;
+  font-family: Georgia, serif;
+  text-shadow: 2px 2px 5px rgb(0, 17, 255);
+  box-shadow: 0 12px 16px 0 rgba(246, 246, 1, 0.584),0 17px 50px 0 rgb(255, 0, 0);
+}
