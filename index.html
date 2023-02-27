@@ -53,17 +53,28 @@
         h3 {
           text-shadow: 10px 10px 10px rgb(0, 34, 255);
         }
+        p {
+          text-align: center;
+          font-size: medium;
+          font-family: Georgia, serif;
+        }
         </style>
 </head>
 </head>
 <body>
     <div>
-      <img src="/imagenes/esta.jpg" alt="hombre con saco y corbata" style="width: 150px;">
+      <img src="/imagenes/nuevof.jpg" alt="hombre con saco y corbata" style="width: 150px;">
     </div>
     
     <div>
     <h1> Diego Omar Gutiérrez </h1>
     <h3> gutierrezdiegoarg@gmail.com</h3>
+    <form action="" method="post">
+      <p>Si usted desea que lo contacte porfavor ingresar a continuación  su E-mail.</p>
+      <label for="email">E-mail</label>  
+      <input type="email" name="E-mail">
+      <input type="submit" value="Enviar">
+    </form>
     </div>
 
     <script src="/js/cv.js"></script>
@@ -71,6 +82,7 @@
     <button type="button" class="beton" id="datos" onclick="tabla1()">Datos Personales</button>
     <button type="button" class="beton" id="titulos" onclick="tabla2()">Estudios</button>
     <button type="button" class="beton" id="laburos" onclick="tabla3()" >Historial Laboral</button>
+    <button type="button" class="beton2" id="laburos" onclick="atrás()" >Cerrar</button>
         
 <div class="box">
     <table id="datospers" >
@@ -129,19 +141,19 @@
         <tr>
           <td>Primario:</td>
           <td>Colegio San Cayetano </td>
-          <td>Buenos Aires, Villa Adelina</td>
+          <td>Bs.As.</td>
         </tr>
         <tr>
           <td>Secundario:</td>
-          <td>escuela nacional de comercio jorge Newvery</td>
-          <td>San Fernando del Valle de Catamarca</td>
+          <td>Escuela nacional de comercio J. Newvery</td>
+          <td>Catamarca</td>
           <td>Titulo: Perito Mercantil con especialidad Contable e Impositiva </td>
         </tr>
         <tr>
           <td>terciario</td>
-          <td>Instituto de Enseñanza Superior (I.E.S.) Prof. Juan M. Chavarria</td>
-          <td>San Fernando del Valle de Catamarca</td>
-          <td>Técnico en administración de Empresas Hoteleras y Gastronómicas</td>
+          <td>(I.E.S.) Prof. Juan M. Chavarria</td>
+          <td>Catamarca</td>
+          <td>Téc. en administración de Empresas H. y G</td>
         </tr>
         <tr>
             <th colspan="4">Estudios Complementarios</th>
